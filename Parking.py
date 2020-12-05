@@ -23,10 +23,6 @@ class Parking:
 	def get_timeWindow(self):
 		return self.timeWindow
 
-
-	def __str__():
- 		return "adresse: " + adresse + " , " + "id: " + id
-
 def getParkingsHdr():
 	parkingsHdr = []
 	parkFile = open("./data/parkings.json", mode='r')
