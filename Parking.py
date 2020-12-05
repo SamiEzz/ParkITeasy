@@ -1,5 +1,6 @@
-import json
 
+import json
+from Place import *
 class Parking:
 	def __init__(self, id,adresse, point="", nbPlaces=0,nbFreePlaces=0,isFree=1, timeWindow="",imgUrl=""):
 		self.id = id
