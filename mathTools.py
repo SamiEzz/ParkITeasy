@@ -1,6 +1,10 @@
 import math
 
-def getDistance(lat1deg,lat2deg,lon1deg,lon2deg):
+def getDistance(p1,p2):
+    lat1deg=p1.lat
+    lat2deg=p2.lat
+    lon1deg=p1.lon
+    lon2deg=p2.lon
     R = 6373.0 # radius of the Earth
 
     # coordinates
