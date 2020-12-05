@@ -1,0 +1,32 @@
+[
+    {
+        "id":0,
+        "adresse":"Avenue du Général Sarrail, 11000 Carcassonne",
+        "point":"",
+        "nbPlaces":"42",
+        "nbFreePlaces":"13",
+        "isFree":"1",
+        "timeWindow":"00:00-23:59|Mon-Sun",
+        "imgUrl":""
+     },
+     {
+        "id":1,
+        "adresse":"Square Gambetta, 11000 Carcassonne",
+        "point":"",
+        "nbPlaces":"137",
+        "nbFreePlaces":"69",
+        "isFree":"1",
+        "timeWindow":"07:00-23:00|7/7",
+        "imgUrl":""
+     },
+     {
+        "id":2,
+        "adresse":"Avenue du Maréchal Joffre, 11000 Carcassonne",
+        "point":"",
+        "nbPlaces":"51",
+        "nbFreePlaces":"17",
+        "isFree":"1",
+        "timeWindow":"00:00-23:59|Mon-Fri",
+        "imgUrl":""
+     }   
+ ]

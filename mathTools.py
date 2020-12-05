@@ -21,5 +21,4 @@ def getDistance(p1,p2):
     # Haversine formula
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     distance = R * c
-    print(distance)
     return distance
