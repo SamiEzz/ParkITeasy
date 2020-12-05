@@ -1,8 +1,8 @@
 import json
 
+env = open("env.json", mode='r')
+envirJson=json.load(env)
 
-def getAccessKey():
-    env = open("env.json", mode='r')
-    envirJson=json.load(env)
-    return envirJson["accessKey_positionstack"]
+def getKeyFromJson(key):
+    return envirJson[key]
     
