@@ -16,7 +16,3 @@ class Availability:
 
 	def get_reservationsList(self):
 		return self.reservationsList
-
-
-	def __str__():
- 		return "timeFrame: " + timeFrame + " , " + "isFree: " + isFree + " , " + "weekDays: " + weekDays + " , " + "reservationsList: " + reservationsList

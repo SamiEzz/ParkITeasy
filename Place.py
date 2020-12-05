@@ -24,7 +24,3 @@ class Place:
 
 	def get_floor(self):
 		return self.floor
-
-
-	def __str__():
- 		return "id: " + id + " , " + "name: " + name + "availability: " + availability + " , " + "isFree: " + isFree + " , " + "floor: " + floor
